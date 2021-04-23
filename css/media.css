@@ -551,8 +551,7 @@
 	}
 	.item-article {
 		box-shadow: 0px 8px 18px rgb(201 229 243 / 90%);
-	}
-
+	} 
 	.wrapper {
 		padding-top: 79px;
 	}
@@ -626,7 +625,7 @@
 		line-height: 27px;
 	}
 	.billbord__btns {
-		justify-content: space-between;
+	text-align: center;
 	}
 	.billbord__btns .btn-main {
 		margin: 0 auto;
