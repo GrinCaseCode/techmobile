@@ -911,7 +911,7 @@
 	margin-bottom: 15px;
 }
  .modal-block .block-form {
-    	width: 280px;
+    	width: 100%;
     }
     .block-form_offer .block-form__title {
     font-size: 20px;
@@ -957,6 +957,10 @@
 	.menu-mobile {
 		display: none !important;
 	}
+	.fancybox-skin,
+.fancybox-inner {
+	    width: fit-content !important;
+}
 }
 
 /* Medium Devices, Desktops */

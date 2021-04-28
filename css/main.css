@@ -1816,11 +1816,8 @@ border-radius: 8px;
     padding: 0 !important;
     background-color: transparent !important;
     box-shadow: none !important;
-    width: fit-content !important;
 }
-.fancybox-inner {
-	    width: fit-content !important;
-}
+
 .item-select select {
 	flex: none;
 }
