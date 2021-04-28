@@ -874,6 +874,9 @@
 .card .title-middle {
     margin-bottom: 15px;
 }
+.tabs-card {
+	padding: 0 10px;
+}
 .tabs-card li {
     margin: 0 8px;
 }
@@ -884,6 +887,12 @@
 }
 .tabs-card li {
     margin: 0 5px;
+}
+.tabs-card li:first-child {
+	margin-left: 0;
+}
+.tabs-card li:last-child {
+	margin-right: 0;
 }
 .card {
 	padding-bottom: 30px;
@@ -911,11 +920,18 @@
 	padding-bottom: 20px;
 }
 .block-form .btn-main {
-	height: 49px;
+	height: 49px; 
 }
 .modal-block .head-block {
     padding: 9px 20px; 
     }
+    .item-question__content {
+    	padding-left: 0;
+    	padding-right: 0;
+    }
+    .tab-container-card {
+    padding-top: 20px;
+}
 }
 
 /* Custom, iPhone Retina */
