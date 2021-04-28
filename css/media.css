@@ -428,6 +428,24 @@
 	.catalog .title-section {
 		padding-bottom: 30px;
 	}
+	.card__sliders {
+		margin: 20px auto;
+	}
+	.breadcumbs_desctop {
+		display: none;
+	}
+	.breadcumbs_mob {
+		padding: 10px 15px;
+		margin: 0 -15px;
+		display: flex;
+		border-bottom: 1px solid #EBEBEB;
+	}
+	.card {
+		padding-top: 0;
+	}
+	.image-advantage {
+		margin-top: 20px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -608,6 +626,32 @@
 	.menu-mobile .phones-wrap {
 		margin-bottom: 15px;
 	}
+	.col_lr {
+		padding: 0 15px;
+	}
+	.card__price {
+		margin-bottom: 20px;
+	}
+	.tabs-card li {
+    margin: 0 17px;
+}
+.tabs-card {
+    font-size: 16px;
+    line-height: 19px;
+    }
+    .advantage-card {
+    	margin-bottom: 30px;
+    }
+    .advantage-big {
+    	padding-left: 0;
+    	text-align: center;
+    }
+    .modal-block .block-form {
+    	width: 370px;
+    }
+    .block-form_offer .block-form__title, .block-form_offer .block-form__descr {
+    margin: 0;
+}
 }
 
 
@@ -628,7 +672,7 @@
 	text-align: center;
 	}
 	.billbord__btns .btn-main {
-		margin: 0 auto;
+		margin: 0 auto; 
 		height: 55px;
 		margin-top: 25px;
 		width: 290px;
@@ -823,6 +867,55 @@
 	.wrapper {
 		padding-top: 62px;
 	}
+	.title-middle {
+    font-size: 19px;
+    line-height: 29px;
+}
+.card .title-middle {
+    margin-bottom: 15px;
+}
+.tabs-card li {
+    margin: 0 8px;
+}
+.tabs-card {
+    font-size: 14px;
+    line-height: 17px;
+    justify-content: space-between;
+}
+.tabs-card li {
+    margin: 0 5px;
+}
+.card {
+	padding-bottom: 30px;
+}
+.info-card__bottom p, .advantage-card p {
+    font-size: 14px;
+    line-height: 23px;
+}
+.advantage-card .title-middle {
+    margin-bottom: 8px;
+}
+.card__price {
+	font-size: 21px;
+}
+.feature-card {
+	margin-bottom: 15px;
+}
+ .modal-block .block-form {
+    	width: 280px;
+    }
+    .block-form_offer .block-form__title {
+    font-size: 20px;
+}
+.block-form_offer .block-form__descr {
+	padding-bottom: 20px;
+}
+.block-form .btn-main {
+	height: 49px;
+}
+.modal-block .head-block {
+    padding: 9px 20px; 
+    }
 }
 
 /* Custom, iPhone Retina */

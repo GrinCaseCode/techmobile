@@ -56,6 +56,36 @@ $(document).ready(function() {
 		]
 	});
 
+ $('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  dots: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+ arrows: false,
+  dots: false,
+  focusOnSelect: true,
+  responsive: [
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 3,
+			}
+		}
+		]
+});
+
+$(".item-question__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings(".item-question__content").slideToggle(200);
+	});
+	
 
 /*высота блока по экрану*/
 	function heightDetect() {
@@ -108,6 +138,15 @@ $('.tabs a').click(function(event) {
 
     }
   }
+
+  $('.tabs-card a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-card").fadeOut(0);
+		var selectTab2 = $(this).attr("href");
+		$(selectTab2).fadeIn(200);
+	});
 
 	/*range slider*/
 
