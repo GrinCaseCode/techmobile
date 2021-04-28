@@ -932,6 +932,9 @@
     .tab-container-card {
     padding-top: 20px;
 }
+.menu-mobile .phones-wrap {
+	padding-left: 25px;
+}
 }
 
 /* Custom, iPhone Retina */
