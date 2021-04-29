@@ -39,7 +39,7 @@
 	}
 	.descr-big {
 		font-size: 26px;
-		line-height: 41px;
+		line-height: 41px; 
 	}
 	.item-advantage {
 		font-size: 15px;
@@ -253,9 +253,16 @@
 		line-height: 25px;
 		margin-bottom: 8px;
 	}
-	.wrapper {
-		padding-top: 132px;
-	}
+.news {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.sidebar-news .item-news {
+	padding: 15px;
+}
+.article {
+	padding-bottom: 40px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -445,6 +452,9 @@
 	}
 	.image-advantage {
 		margin-top: 20px;
+	}
+	.sidebar-news .item-news {
+		padding: 30px;
 	}
 }
 
@@ -651,6 +661,36 @@
     }
     .block-form_offer .block-form__title, .block-form_offer .block-form__descr {
     margin: 0;
+}
+.pager {
+	margin-top: 35px;
+}
+.breadcumbs.breadcumbs_mob a {
+    color: #BFBFBF;
+    border: none;
+}
+.breadcumbs.breadcumbs_mob a:hover {
+	color: #222;
+}
+.article {
+    padding-top: 30px;
+    }
+    .article .title-section {
+    	padding-bottom: 20px;
+    }
+    .title-page {
+    font-size: 23px;
+    line-height: 34px;
+}
+.article .title-page {
+    margin-bottom: 9px;
+}
+.article__image {
+    margin-bottom: 16px;
+}
+.list-text li {
+	width: 100%;
+	padding-right: 0;
 }
 }
 
@@ -934,6 +974,62 @@
 }
 .menu-mobile .phones-wrap {
 	padding-left: 25px;
+}
+.item-news__date {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 4px;
+    }
+    .item-news__image {
+    height: 205px;
+    margin-bottom: 10px;
+}
+.item-news__title {
+    font-size: 16px;
+    line-height: 25px;
+    }
+    .item-news p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.news {
+	padding-bottom: 50px;
+}
+.row_news > div {
+    margin-top: 23px;
+}
+.date-block {
+    padding-left: 12px;
+    padding-right: 8px;
+    padding-bottom: 7px;
+    padding-top: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    }
+    .date-block strong {
+    font-size: 17px;
+    line-height: 18px;
+}
+.title-page {
+    font-size: 20px;
+    line-height: 32px;
+}
+.article {
+	font-size: 14px;
+	line-height: 23px;
+	padding-bottom: 20px;
+}
+.sidebar-news .item-news {
+	padding: 0;
+}
+.sidebar-news {
+	border: none;
+}
+.sidebar-news .item-news {
+	margin-bottom: 20px;
+	border: none;
 }
 }
 
